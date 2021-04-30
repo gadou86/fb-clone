@@ -53,17 +53,21 @@ function Header() {
           <Avatar />
           <h4>Gad Dayan</h4>
         </div>
-          <IconButton />
-            <AddIcon />
-          <IconButton />
-        
-          <IconButton />
-            <ForumIcon />
-          <IconButton />
+        <IconButton>
+          <AddIcon />
+        </IconButton>
 
+        <IconButton>
+          <ForumIcon />
+        </IconButton>
+
+        <IconButton>
           <NotificationsActiveIcon />
-            <ExpandMoreIcon />
-          <IconButton />
+        </IconButton>
+
+        <IconButton>
+          <ExpandMoreIcon />
+        </IconButton>
       </div>
     </div>
   );
